@@ -1,0 +1,14 @@
+# node -v
+# npm -v
+# hexo init blog
+# npm install -g hexo-cli
+# npm install hexo-deployer-git --save
+# npm i hexo-generator-json-content --save
+
+cd blog
+npm install
+hexo clean; hexo g
+# hexo s
+hexo d
+
+# hexo new "My New Post"  
